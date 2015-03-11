@@ -36,12 +36,5 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Resoultion
 DEVICE_RESOLUTION := 480x800
 
-# FM radio
-PRODUCT_PACKAGES += \
-    FM2 \
-    FMRecord \
-    libqcomfm_jni \
-    qcom.fmradio
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/skyrocket/bluetooth
