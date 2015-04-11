@@ -1,2 +1,2 @@
-add_lunch_combo candy5_skyrocket-userdebug
+add_lunch_combo cm_skyrocket-eng
 
