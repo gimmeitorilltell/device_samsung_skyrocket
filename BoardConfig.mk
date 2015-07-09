@@ -26,6 +26,9 @@ TARGET_OTA_ASSERT_DEVICE := SGH-I727,skyrocket
 TARGET_KERNEL_CONFIG := cyanogenmod_skyrocket_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8660-common
 
+# Low-ram optimizations
+PAC_LOW_RAM_DEVICE := true
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
