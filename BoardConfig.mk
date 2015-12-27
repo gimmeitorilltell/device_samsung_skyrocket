@@ -27,3 +27,6 @@ TARGET_KERNEL_CONFIG := skyrocket_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/skyrocket/bluetooth
+
+#TWRP
+RECOVERY_VARIANT := twrp
